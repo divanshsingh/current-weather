@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="weather.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="cityname" type="text" placeholder="enter city name...">
+            <button class="btn"><img src="search.png" alt=""></button>
+        </div>
+        <div class="errdiv">
+            <p class="error">this city is not in our database</p>
+        </div>
+        <div class="weather">
+            <img src="clear.png" alt="">
+            <h1 class="temp">27°<sup>C</sup></h1>
+            <h2 class="city">New York</h2>
+        <div class="details">
+            <div class="col">
+            <img src="humidity.png" alt="">
+            <div>
+        <p class="humidity">50%</p>
+            <p class="humidtxt">Humidity</p>
+        </div>
+        </div>
+        <div class="col">
+            <img src="wind.png" alt="">
+            <div>
+        <p class="windspeed">5 km/h</p>
+            <p class="windtxt">Wind Speed</p>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
